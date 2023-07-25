@@ -14,4 +14,4 @@ for i in range(n):
     x += dx[move_dir] * dist
     y += dy[move_dir] * dist
 
-    print(x, y)
+print(x, y)
