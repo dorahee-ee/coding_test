@@ -19,9 +19,6 @@ while flag:
     move_dir = (curr_dir + 2) % 4
     nx, ny = x + dx[move_dir], y + dy[move_dir]
 
-    
-    
-
     # 2. 현재 칸의 주변 4칸 중 청소되지 않은 빈 칸이 없는 경우,
     cnt = 0
     for dx, dy in zip(dxs, dys):
